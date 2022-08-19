@@ -12,15 +12,16 @@ You are probably looking for the Wine/Windows branch, which enables Space Engine
 2. Install .NET 6 (not .NET Core, not .NET 5, and not .NET 7)
 3. Install the latest Mono
 4. Install zenity
-5. Copy `compatibilitytool.vdf` to steam compatibility tools folder (you can rename it) (`~/.steam/steam/compatibilitytools.d/` or something, you can search for that if doesn't work)
-6. Open that file, and edit `install_path` to the root of this repo.
-7. Download [Steam SDK](https://partner.steamgames.com/downloads/steamworks_sdk.zip) and extract `sdk/redistributable_bin/libsteam_api.so` into `bin/Debug/Native`
-8. Download [DXVK Native](https://github.com/Joshua-Ashton/dxvk-native/releases) and extract all `.so` files from it into `bin/Debug/Native` (or `bin/Release/Native`. The native folder must be in the parent folder of the Loader binary, see `Loader/Program.cs`. Same applies for `libsteam_api.so`)
-9. Open Steam > Library > Space Engineers > Properties > Compatibility and set it to `.NET 6` (or whatever it is in `compatibilitytool.vdf`)
-10. Open project in your favorite IDE/text editor
-11. Start Space Engineers
-12. In your IDE/text editor, attach to the displayed process ID
-13. Click OK. Now the game lauches.
+5. Open `RuntimePatches/RuntimePatches.csproj` and edit the path to the game assemblies (`/path/to/...`)
+6. Copy `compatibilitytool.vdf` to steam compatibility tools folder (you can rename it) (`~/.steam/steam/compatibilitytools.d/` or something, you can search for that if doesn't work)
+7. Open that file, and edit `install_path` to the root of this repo.
+8. Download [Steam SDK](https://partner.steamgames.com/downloads/steamworks_sdk.zip) and extract `sdk/redistributable_bin/libsteam_api.so` into `bin/Debug/Native`
+9. Download [DXVK Native](https://github.com/Joshua-Ashton/dxvk-native/releases) and extract all `.so` files from it into `bin/Debug/Native` (or `bin/Release/Native`. The native folder must be in the parent folder of the Loader binary, see `Loader/Program.cs`. Same applies for `libsteam_api.so`)
+10. Open Steam > Library > Space Engineers > Properties > Compatibility and set it to `.NET 6` (or whatever it is in `compatibilitytool.vdf`)
+11. Open project in your favorite IDE/text editor
+12. Start Space Engineers
+13. In your IDE/text editor, attach to the displayed process ID
+14. Click OK. Now the game lauches.
 
 ## What is the furthest point the game runs?
 
