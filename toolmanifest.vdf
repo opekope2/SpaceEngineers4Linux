@@ -1,0 +1,5 @@
+"manifest"
+{
+  "version" "2"
+  "commandline" "/Loader/bin/Debug/net6.0/Loader %verb%"
+}
