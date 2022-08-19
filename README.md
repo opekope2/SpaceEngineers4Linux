@@ -19,9 +19,12 @@ You are probably looking for the Wine/Windows branch, which enables Space Engine
 9. Download [DXVK Native](https://github.com/Joshua-Ashton/dxvk-native/releases) and extract all `.so` files from it into `bin/Debug/Native` (or `bin/Release/Native`. The native folder must be in the parent folder of the Loader binary, see `Loader/Program.cs`. Same applies for `libsteam_api.so`)
 10. Open Steam > Library > Space Engineers > Properties > Compatibility and set it to `.NET 6` (or whatever it is in `compatibilitytool.vdf`)
 11. Open project in your favorite IDE/text editor
-12. Start Space Engineers
-13. In your IDE/text editor, attach to the displayed process ID
-14. Click OK. Now the game lauches.
+12. Build the Loader from your IDE/text editor or command line (`dotnet build Loader` at the repo root)
+13. Start Space Engineers
+14. In your IDE/text editor, attach to the displayed process ID
+15. Click OK. Now the game lauches.
+
+Logs are at `~/.config/SpaceEngineers`
 
 ## What is the furthest point the game runs?
 
