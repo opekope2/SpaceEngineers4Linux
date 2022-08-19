@@ -1,0 +1,1606 @@
+{
+  "Assemblies": [
+    {
+      "File": null,
+      "Name": "DirectShowLib, Version=2.1.0.1599, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETFramework,Version=v4.5",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "EmptyKeys.UserInterface.Core, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "EmptyKeys.UserInterface, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "EOSSDK, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "GameAnalytics.Mono, Version=1.0.7702.25490, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETFramework,Version=v4.5",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "HavokWrapper, Version=0.1.1.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "Microsoft.CodeAnalysis.CSharp, Version=2.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "TargetFramework": ".NETStandard,Version=v1.3",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "Microsoft.CodeAnalysis, Version=2.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "TargetFramework": ".NETStandard,Version=v1.3",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c",
+      "TargetFramework": ".NETFramework,Version=v4.5",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "ProtoBuf.Net.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "ProtoBuf.Net, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "RecastDetourWrapper, Version=0.1.1.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "RestSharp, Version=106.6.10.0, Culture=neutral, PublicKeyToken=598062e77f915f75",
+      "TargetFramework": ".NETFramework,Version=v4.5.2",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "Sandbox.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "Sandbox.Game, Version=0.1.1.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "Sandbox.Game.XmlSerializers, Version=0.1.1.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "Sandbox.Graphics, Version=0.1.1.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "Sandbox.RenderDirect, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SharpDX.D3DCompiler, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+      "TargetFramework": ".NETStandard,Version=v1.1",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+      "TargetFramework": ".NETFramework,Version=v4.5",
+      "Types": [
+        {
+          "Name": "SharpDX.MessageFilterHook",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": "AddMessageFilter",
+              "Uses": [
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Windows.Forms.IMessageFilter",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "RemoveMessageFilter",
+              "Uses": [
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Windows.Forms.IMessageFilter",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "AddMessageMilter",
+              "Uses": [
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Windows.Forms.IMessageFilter",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Collections.Generic.List\u00601\u003CSystem.Windows.Forms.IMessageFilter\u003E",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "RemoveMessageFilter",
+              "Uses": [
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Windows.Forms.IMessageFilter",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Collections.Generic.List\u00601\u003CSystem.Windows.Forms.IMessageFilter\u003E",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "WndProc",
+              "Uses": [
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Windows.Forms.Message",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Collections.Generic.List\u00601/Enumerator\u003CSystem.Windows.Forms.IMessageFilter\u003E",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Windows.Forms.Message\u0026",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "SharpDX.Windows.RenderControl",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": ".ctor",
+              "Uses": [
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Windows.Forms.ControlStyles",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "OnPaintBackground",
+              "Uses": [
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Windows.Forms.PaintEventArgs",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "OnPaint",
+              "Uses": [
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Windows.Forms.PaintEventArgs",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "SharpDX.Windows.RenderForm",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": ".ctor",
+              "Uses": [
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Windows.Forms.ControlStyles",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "set_AllowUserResizing",
+              "Uses": [
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Windows.Forms.FormBorderStyle",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "OnPaintBackground",
+              "Uses": [
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Windows.Forms.PaintEventArgs",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "WndProc",
+              "Uses": [
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Windows.Forms.Message\u0026",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "ProcessDialogKey",
+              "Uses": [
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Windows.Forms.Keys",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "SharpDX.Windows.RenderLoop",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": ".ctor",
+              "Uses": [
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Windows.Forms.Control",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "set_Control",
+              "Uses": [
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Windows.Forms.Control",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "NextFrame",
+              "Uses": [
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Windows.Forms.Message",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Windows.Forms.Message\u0026",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "Dispose",
+              "Uses": [
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Windows.Forms.Control",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "Run",
+              "Uses": [
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Windows.Forms.ApplicationContext",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Windows.Forms.Control",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "Run",
+              "Uses": [
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Windows.Forms.Control",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "File": null,
+      "Name": "SharpDX.Direct3D11, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+      "TargetFramework": ".NETStandard,Version=v1.1",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SharpDX.DirectInput, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+      "TargetFramework": ".NETFramework,Version=v4.5",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+      "TargetFramework": ".NETFramework,Version=v4.5",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SharpDX.DXGI, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+      "TargetFramework": ".NETStandard,Version=v1.1",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SharpDX.XAudio2, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+      "TargetFramework": ".NETStandard,Version=v1.1",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SharpDX.XInput, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+      "TargetFramework": ".NETFramework,Version=v4.5",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SixLabors.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SixLabors.ImageSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SpaceEngineers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETFramework,Version=v4.8",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SpaceEngineers.Game, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SpaceEngineers.ObjectBuilders, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SpaceEngineers.ObjectBuilders.XmlSerializers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "Steamworks.NET, Version=15.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETFramework,Version=v4.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "System.Buffers, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "System.Data.SQLite, Version=1.0.102.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139",
+      "TargetFramework": ".NETFramework,Version=v4.5",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "System.Memory, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "System.Reflection.Metadata, Version=1.4.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "System.Text.Encoding.CodePages, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "System.Threading.Tasks.Extensions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Ansel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETFramework,Version=v4.8",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Audio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.EOS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.EOS.XmlSerializers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Game, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Game.XmlSerializers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Input, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Math, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Math.XmlSerializers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Mod.Io, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.NativeAftermath, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETFramework,Version=v4.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.NativeWrapper, Version=0.1.1.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Network, Version=1.0.53.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETFramework,Version=v4.6.1",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETFramework,Version=v4.8",
+      "Types": [
+        {
+          "Name": "VRage.Platform.Windows.IME.MyGuiControlIme",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": ".ctor",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.KeyEventArgs",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.KeyEventHandler",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "MyGuiControlIme_KeyDown",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.KeyEventArgs",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.Keys",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "ActivateDelegate",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.ImeMode",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "DeactivateDelegate",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.ImeMode",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "WndProc",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.Message\u0026",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "VRage.Platform.Windows.IME.MyImeProcessor",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": "WndProc",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.Message\u0026",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "VRage.Platform.Windows.Forms.ModCrashedTheGameMesageBox",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": "linklblLog_LinkClicked",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.LinkLabelLinkClickedEventArgs",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "InitializeComponent",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.ImageLayout",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.Padding",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.AnchorStyles",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.LinkLabelLinkClickedEventArgs",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.LinkLabelLinkClickedEventHandler",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.AutoScaleMode",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.Control",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.FormBorderStyle",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.FormStartPosition",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "VRage.Platform.Windows.Forms.MyGameForm",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": "Init",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.ControlStyles",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.FormBorderStyle",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "set_AllowUserResizing",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.FormBorderStyle",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "InitializeIME",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.ImeMode",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.Control",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "FocusIme",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.Control",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "OnLoad",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.IMessageFilter",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "OnClosed",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.IMessageFilter",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "WndProc",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.Message\u0026",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "PreFilterMessage",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.Message\u0026",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.FormWindowState",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.Control",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.MouseEventArgs",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": ".ctor",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.MouseButtons",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "VRage.Platform.Windows.Forms.MyGameWindow",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": ".ctor",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.FormClosingEventArgs",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.FormClosingEventHandler",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "OnFormClosing",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.FormClosingEventArgs",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "OnModeChanged",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.FormBorderStyle",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.SizeGripStyle",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "VRage.IVRageWindow.UpdateRenderThread",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.Control",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "WndProc",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.Message\u0026",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "UpdateMainThread",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Collections.Generic.Queue\u00601\u003CSystem.Windows.Forms.Message\u003E",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.Message",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.Message\u0026",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "AddMessage",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.Message\u0026",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Collections.Generic.Queue\u00601\u003CSystem.Windows.Forms.Message\u003E",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "ClearMessageQueue",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Collections.Generic.Queue\u00601\u003CSystem.Windows.Forms.Message\u003E",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "ProcessMessage",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.Message\u0026",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "VRage.Platform.Windows.Forms.MyMessageBoxCrashForm",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": ".ctor",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.MessageBoxButtons",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.MessageBoxIcon",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "linklblLog_LinkClicked",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.LinkLabelLinkClickedEventArgs",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "btnYes_Click",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.DialogResult",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "tbEmail_KeyDown",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.KeyEventArgs",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "InitializeComponent",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.AnchorStyles",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.BorderStyle",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.Control",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.FlowDirection",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.Padding",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.LinkLabelLinkClickedEventArgs",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.LinkLabelLinkClickedEventHandler",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.KeyEventArgs",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.KeyEventHandler",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.ImageLayout",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.AutoScaleMode",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.FormBorderStyle",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.FormStartPosition",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "VRage.Platform.Windows.Forms.MySplashScreen",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": "InitializeComponent",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.FormBorderStyle",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "VRage.Platform.Windows.Forms.MyToolsWindow",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": ".ctor",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.KeyPressEventArgs",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.KeyPressEventHandler",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.FormClosedEventArgs",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.FormClosedEventHandler",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "TopLevelForm_KeyPress",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.KeyPressEventArgs",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "OnFormClosed",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.FormClosedEventArgs",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "File": null,
+      "Name": "VRage.Render, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Render11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Scripting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Steam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.UserInterface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.XmlSerializers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "0Harmony, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETFramework,Version=v4.8",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETFramework,Version=v4.8",
+      "Types": [
+        {
+          "Name": "avaness.PluginLoader.LoaderTools",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": "OpenFileDialogThread",
+              "Uses": [
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.IWin32Window",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "OpenFolderDialogThread",
+              "Uses": [
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.IWin32Window",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "avaness.PluginLoader.Main",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": ".ctor",
+              "Uses": [
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.Cursor",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "avaness.PluginLoader.Patch.Patch_DisableConfig",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": "Postfix",
+              "Uses": [
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.IWin32Window",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.MessageBoxButtons",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.MessageBoxIcon",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "avaness.PluginLoader.GUI.SplashScreen",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": ".ctor",
+              "Uses": [
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.Form",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.FormBorderStyle",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.Control",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.PictureBoxSizeMode",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.PaintEventArgs",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.PaintEventHandler",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "OnPictureBoxDraw",
+              "Uses": [
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.PaintEventArgs",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "Delete",
+              "Uses": [
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.PaintEventArgs",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.PaintEventHandler",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "avaness.PluginLoader.Data.PluginData",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": "Error",
+              "Uses": [
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.IWin32Window",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.MessageBoxButtons",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.MessageBoxIcon",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            },
+            {
+              "Name": "ErrorSecurity",
+              "Uses": [
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.IWin32Window",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.MessageBoxButtons",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Windows.Forms.MessageBoxIcon",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Windows.Forms"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

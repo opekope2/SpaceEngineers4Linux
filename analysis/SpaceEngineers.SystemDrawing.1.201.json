@@ -1,0 +1,1139 @@
+{
+  "Assemblies": [
+    {
+      "File": null,
+      "Name": "DirectShowLib, Version=2.1.0.1599, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETFramework,Version=v4.5",
+      "Types": [
+        {
+          "Name": "DirectShowLib.DsRect",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": ".ctor",
+              "Uses": [
+                {
+                  "AssemblyName": "DirectShowLib, Version=2.1.0.1599, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Rectangle",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            },
+            {
+              "Name": "Equals",
+              "Uses": [
+                {
+                  "AssemblyName": "DirectShowLib, Version=2.1.0.1599, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Rectangle",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            },
+            {
+              "Name": "op_Implicit",
+              "Uses": [
+                {
+                  "AssemblyName": "DirectShowLib, Version=2.1.0.1599, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Rectangle",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            },
+            {
+              "Name": "FromRectangle",
+              "Uses": [
+                {
+                  "AssemblyName": "DirectShowLib, Version=2.1.0.1599, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Rectangle",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "DirectShowLib.NormalizedRect",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": ".ctor",
+              "Uses": [
+                {
+                  "AssemblyName": "DirectShowLib, Version=2.1.0.1599, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.RectangleF",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            },
+            {
+              "Name": "op_Implicit",
+              "Uses": [
+                {
+                  "AssemblyName": "DirectShowLib, Version=2.1.0.1599, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Rectangle",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "DirectShowLib, Version=2.1.0.1599, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.RectangleF",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            },
+            {
+              "Name": "FromRectangle",
+              "Uses": [
+                {
+                  "AssemblyName": "DirectShowLib, Version=2.1.0.1599, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.RectangleF",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "File": null,
+      "Name": "EmptyKeys.UserInterface.Core, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "EmptyKeys.UserInterface, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "EOSSDK, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "GameAnalytics.Mono, Version=1.0.7702.25490, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETFramework,Version=v4.5",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "HavokWrapper, Version=0.1.1.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "Microsoft.CodeAnalysis.CSharp, Version=2.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "TargetFramework": ".NETStandard,Version=v1.3",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "Microsoft.CodeAnalysis, Version=2.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "TargetFramework": ".NETStandard,Version=v1.3",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c",
+      "TargetFramework": ".NETFramework,Version=v4.5",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "ProtoBuf.Net.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "ProtoBuf.Net, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "RecastDetourWrapper, Version=0.1.1.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "RestSharp, Version=106.6.10.0, Culture=neutral, PublicKeyToken=598062e77f915f75",
+      "TargetFramework": ".NETFramework,Version=v4.5.2",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "Sandbox.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "Sandbox.Game, Version=0.1.1.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "Sandbox.Game.XmlSerializers, Version=0.1.1.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "Sandbox.Graphics, Version=0.1.1.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "Sandbox.RenderDirect, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SharpDX.D3DCompiler, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+      "TargetFramework": ".NETStandard,Version=v1.1",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+      "TargetFramework": ".NETFramework,Version=v4.5",
+      "Types": [
+        {
+          "Name": "SharpDX.Windows.RenderControl",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": "OnPaint",
+              "Uses": [
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Drawing.SizeF",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Drawing.FontStyle",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Drawing.Color",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Drawing.Font",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Drawing.Brush",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "SharpDX.Windows.RenderForm",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": ".ctor",
+              "Uses": [
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Drawing.Size",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Drawing.Icon",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            },
+            {
+              "Name": "OnResizeEnd",
+              "Uses": [
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Drawing.Size",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            },
+            {
+              "Name": "OnClientSizeChanged",
+              "Uses": [
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Drawing.Size",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            },
+            {
+              "Name": "WndProc",
+              "Uses": [
+                {
+                  "AssemblyName": "SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+                  "Type": "System.Drawing.Size",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "File": null,
+      "Name": "SharpDX.Direct3D11, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+      "TargetFramework": ".NETStandard,Version=v1.1",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SharpDX.DirectInput, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+      "TargetFramework": ".NETFramework,Version=v4.5",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+      "TargetFramework": ".NETFramework,Version=v4.5",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SharpDX.DXGI, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+      "TargetFramework": ".NETStandard,Version=v1.1",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SharpDX.XAudio2, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+      "TargetFramework": ".NETStandard,Version=v1.1",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SharpDX.XInput, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1",
+      "TargetFramework": ".NETFramework,Version=v4.5",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SixLabors.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SixLabors.ImageSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SpaceEngineers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETFramework,Version=v4.8",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SpaceEngineers.Game, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SpaceEngineers.ObjectBuilders, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "SpaceEngineers.ObjectBuilders.XmlSerializers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "Steamworks.NET, Version=15.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETFramework,Version=v4.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "System.Buffers, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "System.Data.SQLite, Version=1.0.102.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139",
+      "TargetFramework": ".NETFramework,Version=v4.5",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "System.Memory, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "System.Reflection.Metadata, Version=1.4.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "System.Text.Encoding.CodePages, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "System.Threading.Tasks.Extensions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Ansel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETFramework,Version=v4.8",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Audio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.EOS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.EOS.XmlSerializers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Game, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Game.XmlSerializers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Input, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Math, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": [
+        {
+          "Name": "VRageMath.ColorExtensions",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": "ColorToHSV",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Math, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Color",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            },
+            {
+              "Name": "ColorToHSVDX11",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Math, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Color",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "File": null,
+      "Name": "VRage.Math.XmlSerializers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Mod.Io, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.NativeAftermath, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETFramework,Version=v4.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.NativeWrapper, Version=0.1.1.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Network, Version=1.0.53.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETFramework,Version=v4.6.1",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETFramework,Version=v4.8",
+      "Types": [
+        {
+          "Name": "VRage.Platform.Windows.Forms.ModCrashedTheGameMesageBox",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": "InitializeComponent",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Image",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Point",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Size",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.SizeF",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.FontStyle",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.GraphicsUnit",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Font",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Icon",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "VRage.Platform.Windows.Forms.MyGameForm",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": "InitializeIME",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Size",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            },
+            {
+              "Name": "PreFilterMessage",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Rectangle",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Point",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            },
+            {
+              "Name": "VRage.IVRageInput.get_MouseAreaSize",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Size",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "VRage.Platform.Windows.Forms.MyGameWindow",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": ".ctor",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Icon",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            },
+            {
+              "Name": "get_ClientSize",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Size",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            },
+            {
+              "Name": "SetClip",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Rectangle",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            },
+            {
+              "Name": "ClearClip",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Rectangle",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            },
+            {
+              "Name": "OnModeChanged",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Size",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Point",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            },
+            {
+              "Name": "InitializeComponent",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Size",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "VRage.Platform.Windows.Forms.MyMessageBoxCrashForm",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": "InitializeComponent",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Point",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Size",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Color",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Image",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.SizeF",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.FontStyle",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.GraphicsUnit",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Font",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Icon",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "VRage.Platform.Windows.Forms.MySplashScreen",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": "Draw",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.RectangleF",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.PointF",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Image",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            },
+            {
+              "Name": "InitializeComponent",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.PointF",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Size",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "VRage.Platform.Windows.Forms.MyToolsWindow",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": "get_ClientSize",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Size",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            },
+            {
+              "Name": "SetMouseClip",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Rectangle",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            },
+            {
+              "Name": "SetMouseCapture",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Rectangle",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            },
+            {
+              "Name": "VRage.IVRageInput.get_MousePosition",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Point",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            },
+            {
+              "Name": "VRage.IVRageInput.get_MouseAreaSize",
+              "Uses": [
+                {
+                  "AssemblyName": "VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Size",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "File": null,
+      "Name": "VRage.Render, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Render11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Scripting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.Steam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.UserInterface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETStandard,Version=v2.0",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "VRage.XmlSerializers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": null,
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "0Harmony, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETFramework,Version=v4.8",
+      "Types": []
+    },
+    {
+      "File": null,
+      "Name": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+      "TargetFramework": ".NETFramework,Version=v4.8",
+      "Types": [
+        {
+          "Name": "avaness.PluginLoader.GUI.SplashScreen",
+          "Fields": [],
+          "Methods": [
+            {
+              "Name": ".ctor",
+              "Uses": [
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Image",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.SizeF",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.PointF",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Font",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Size",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Image\u0026",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.FontFamily",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.FontStyle",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Color",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.ContentAlignment",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Point",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            },
+            {
+              "Name": "TryLoadImage",
+              "Uses": [
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Image\u0026",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            },
+            {
+              "Name": "OnPictureBoxDraw",
+              "Uses": [
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.RectangleF",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.Brush",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.PointF",
+                  "Method": null
+                },
+                {
+                  "AssemblyName": "PluginLoader, Version=1.10.1.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": "System.Drawing.SizeF",
+                  "Method": null
+                }
+              ],
+              "Matches": [
+                "System.Drawing"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
